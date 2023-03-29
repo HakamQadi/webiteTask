@@ -132,6 +132,7 @@
 }
 
 #uList li {
+    padding-bottom: 20px;
 
     font-size: 12px;
     text-align: center;
@@ -148,4 +149,117 @@
 
 
 
+}
+
+
+
+
+
+
+
+
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: 300px  300px 300px 300px  ;
+    grid-template-rows: 450px 450px 450px;
+    /* grid-gap: 5px; */
+    justify-content: space-between;
+
+    height: 100%;
+    /* padding: 0px; */
+    /* background-color: red; */
+}
+
+.card {
+    /* background-color: rgb(245, 12, 12); */
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    padding: 0;
+}
+.photo{
+    padding: 0;
+}
+.img2 {
+    padding: 0;
+     position: relative;
+    top: 5px;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px; 
+
+}
+
+/* .icn {
+    position: ;
+    top: 200px;
+    left: 310px;
+    width: 24px;
+    height: 32px;
+} */
+
+.details {
+    padding: 0;
+    padding-top: 10px;
+    /* padding-bottom: 5px; */
+    padding-left: 10px;
+    /* padding-right: 10px; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+} 
+
+.title {
+    /* padding-bottom:5px ; */
+    padding: 0;
+    /* font-weight: bolder; */
+}
+
+.bio {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.date {
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.price {
+    padding: 0;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.rated {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rate{
+    padding: 0;
+}
+.time{
+    padding: 0;
+}
+.map{
+    position: fixed;
+    top: 90%;
+    left: 49%;
+    background-color: #222222;
+    color: white;
+    padding: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 25px;
 }
